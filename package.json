@@ -1,0 +1,26 @@
+{
+  "name": "colorsetjsonparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasamiYamate/ColorSetJsonParser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MasamiYamate/ColorSetJsonParser/issues"
+  },
+  "homepage": "https://github.com/MasamiYamate/ColorSetJsonParser#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "commander": "^5.0.0",
+    "node-filelist": "^1.0.0",
+    "path": "^0.12.7",
+    "rxjs": "^6.5.5"
+  }
+}
