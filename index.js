@@ -1,7 +1,6 @@
-const rx = require('rxjs');
 const program = require('commander')
+const assetParser = require('./lib/asset-parser');
 const fileManager = require('./lib/file-manager');
-const colorSetManager = require('./lib/colorasset-manager');
 
 program
   .version('0.0.1', '-v, --version')
@@ -14,5 +13,8 @@ if (!program.path) {
 }
 
 const path = program.path;
-colorSetManager.loadColorAssetJson(path).subscribe({});
+assetParser.loadAssetJson(path).subscribe({next(result) {
+  console.log(result);
+  fileManager.saveJson(result, './resources/');
+}});
 
