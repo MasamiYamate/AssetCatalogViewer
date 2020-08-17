@@ -1,6 +1,10 @@
 const program = require('commander')
 const assetParser = require('./lib/asset-parser');
 const fileManager = require('./lib/file-manager');
+const imageExtraction = require('./lib/image-extraction');
+
+const resourceDirPath = './resources/';
+const imagesDirPath =  './resources/images/';
 
 program
   .version('0.0.1', '-v, --version')
@@ -13,8 +17,23 @@ if (!program.path) {
 }
 
 const path = program.path;
-assetParser.loadAssetJson(path).subscribe({next(result) {
-  console.log(result);
-  fileManager.saveJson(result, './resources/');
-}});
 
+fileManager.mkdir(resourceDirPath);
+
+fileManager.findJsonPaths(path).subscribe({
+  next(paths) {
+    assetParser.loadAssetJson(paths).subscribe({next(result) {
+      fileManager.saveJson(result, resourceDirPath);
+    }});
+    imageExtraction.extractionResource(paths).subscribe({next(results) {
+      results.forEach(function(result) {
+        let basePath = result['path'];
+        let fileName = result['name'];
+        let copyPath = imagesDirPath + fileName;
+        fileManager.mkdir(imagesDirPath);
+        fileManager.copy(basePath, copyPath);
+      })
+    }});
+    
+  }
+});

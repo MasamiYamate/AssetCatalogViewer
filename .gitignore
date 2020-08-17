@@ -105,3 +105,5 @@ dist
 
 # Resources file
 resources/
+
+.DS_Store
