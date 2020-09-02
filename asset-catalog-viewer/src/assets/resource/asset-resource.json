@@ -1,1 +1,44 @@
-{"colors":[{"name":"Test.colorset","value":{"any":{"color-space":"srgb","components":{"alpha":"1.000","blue":"1.000","green":"1.000","red":"1.000"}},"light":{"color-space":"srgb","components":{"alpha":"1.000","blue":"1.000","green":"1.000","red":"1.000"}},"dark":{"color-space":"srgb","components":{"alpha":"1.000","blue":"1.000","green":"1.000","red":"1.000"}}}}],"images":[{"name":"AppIcon.appiconset","value":{}},{"name":"DSC02906.imageset","value":{"universal":{"any":{"1x":"DSC02906.jpg"}}}}]}
+{
+    "colors": [
+        {
+            "name": "Test.colorset",
+            "value": {
+                "any": "#111111",
+                "light": {
+                    "color-space": "srgb",
+                    "components": {
+                        "alpha": "1.000",
+                        "blue": "1.000",
+                        "green": "1.000",
+                        "red": "1.000"
+                    }
+                },
+                "dark": {
+                    "color-space": "srgb",
+                    "components": {
+                        "alpha": "1.000",
+                        "blue": "1.000",
+                        "green": "1.000",
+                        "red": "1.000"
+                    }
+                }
+            }
+        }
+    ],
+    "images": [
+        {
+            "name": "AppIcon.appiconset",
+            "value": {}
+        },
+        {
+            "name": "DSC02906.imageset",
+            "value": {
+                "universal": {
+                    "any": {
+                        "1x": "DSC02906.jpg"
+                    }
+                }
+            }
+        }
+    ]
+}
