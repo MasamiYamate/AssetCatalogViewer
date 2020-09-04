@@ -3,24 +3,26 @@
         {
             "name": "Test.colorset",
             "value": {
-                "any": "#111111",
+                "any": {
+                    "red": 208,
+                    "green": 159,
+                    "blue": 234,
+                    "alpha": 1,
+                    "hex": "#d09fea"
+                },
                 "light": {
-                    "color-space": "srgb",
-                    "components": {
-                        "alpha": "1.000",
-                        "blue": "1.000",
-                        "green": "1.000",
-                        "red": "1.000"
-                    }
+                    "red": 255,
+                    "green": 255,
+                    "blue": 255,
+                    "alpha": 1,
+                    "hex": "#ffffff"
                 },
                 "dark": {
-                    "color-space": "srgb",
-                    "components": {
-                        "alpha": "1.000",
-                        "blue": "1.000",
-                        "green": "1.000",
-                        "red": "1.000"
-                    }
+                    "red": 255,
+                    "green": 255,
+                    "blue": 255,
+                    "alpha": 1,
+                    "hex": "#ffffff"
                 }
             }
         }
