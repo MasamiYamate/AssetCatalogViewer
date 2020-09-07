@@ -1,31 +1,25 @@
 <template>
   <v-app id="inspire">
-    <v-card class="mx-auto" min-width="300" max-width="400" min-height="100" bottom="50">
-      <v-container fluid>
-        <v-row dense>
-          <v-col v-for="(card, index) in colors" :key="index">
-            <v-avatar v-if="card.value.any" :color="card.value.any" size="120">
-              <div class="d-flex flex-column">
-              <span class="white--text headline">Light</span>
-              <span class="white--text headline">{{card.value.any}}</span>
-              </div>
-            </v-avatar>
-            <v-avatar color="indigo" size="120">
-              <div class="d-flex flex-column">
-              <span class="white--text headline">Light</span>
-              <span class="white--text headline">#000000</span>
-              </div>
-            </v-avatar>
-            <v-avatar color="indigo" size="120">
-              <div class="d-flex flex-column">
-              <span class="white--text headline">Light</span>
-              <span class="white--text headline">#000000</span>
-              </div>
-            </v-avatar>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-card>
+    <v-simple-table height="300px">
+      <template v-slot:default>
+        <thead>
+          <tr>
+            <th class="text-left">Name</th>
+            <th class="text-left">Any</th>
+            <th class="text-left">Dark</th>
+            <th class="text-left">Light</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="color in colors" :key="color.name">
+            <td>{{ color.name }}</td>
+            <td :bgcolor="color.value.any.hex">{{ color.value.any.hex }}</td>
+            <!-- <td :bgcolor="color.value.dark.hex">{{ color.value.dark.hex }}</td>
+            <td :bgcolor="color.value.light.hex">{{ color.value.light.hex }}</td> -->
+          </tr>
+        </tbody>
+      </template>
+    </v-simple-table>
   </v-app>
 </template>
 
