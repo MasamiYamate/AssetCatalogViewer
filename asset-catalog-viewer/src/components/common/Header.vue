@@ -32,10 +32,6 @@ export default {
       menuItems: [
         {
           name: "Colors",
-          url: "#aa",
-        },
-        {
-          name: "Images",
           url: "#",
         },
       ],

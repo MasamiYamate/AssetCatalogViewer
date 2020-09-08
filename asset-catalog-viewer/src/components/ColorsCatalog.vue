@@ -14,8 +14,8 @@
           <tr v-for="color in colors" :key="color.name">
             <td>{{ color.name }}</td>
             <td :bgcolor="color.value.any.hex">{{ color.value.any.hex }}</td>
-            <!-- <td :bgcolor="color.value.dark.hex">{{ color.value.dark.hex }}</td>
-            <td :bgcolor="color.value.light.hex">{{ color.value.light.hex }}</td> -->
+            <td :bgcolor="color.value.dark.hex">{{ color.value.dark.hex }}</td>
+            <td :bgcolor="color.value.light.hex">{{ color.value.light.hex }}</td>
           </tr>
         </tbody>
       </template>
