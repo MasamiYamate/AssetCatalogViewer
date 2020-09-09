@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/MasamiYamate/ColorSetJsonParser#readme",
   "dependencies": {
-    "async": "^3.2.0",
     "commander": "^5.0.0",
     "node-filelist": "^1.0.0",
     "path": "^0.12.7",
