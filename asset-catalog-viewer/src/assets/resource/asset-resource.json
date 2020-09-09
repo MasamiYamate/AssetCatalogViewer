@@ -1,1 +1,62 @@
-{"colors":[{"name":"Test-Color1.colorset","value":{"any":{"red":255,"green":125,"blue":120,"alpha":1,"hex":"#ff7d78"},"light":{"red":255,"green":38,"blue":0,"alpha":1,"hex":"#ff2600"},"dark":{"red":148,"green":17,"blue":0,"alpha":1,"hex":"#941100"}}},{"name":"Test-Color2.colorset","value":{"any":{"red":212,"green":251,"blue":120,"alpha":1,"hex":"#d4fb78"},"light":{"red":141.78,"green":249.64499999999998,"blue":0,"alpha":1,"hex":"#48b800"},"dark":{"red":78.53999999999999,"green":143.31,"blue":0,"alpha":1,"hex":"#082900"}}},{"name":"Test-Color3.colorset","value":{"any":{"red":117.81,"green":213.69,"blue":255,"alpha":1,"hex":"#29d7ff"},"light":{"red":0,"green":252.70499999999998,"blue":255,"alpha":1,"hex":"#00e1ff"},"dark":{"red":0,"green":145.095,"blue":146.625,"alpha":1,"hex":"#00b8.a"}}}],"images":[{"name":"AppIcon.appiconset","value":{}}]}
+{
+    "colors": [
+        {
+            "name": "Test-Color1.colorset",
+            "value": {
+                "any": {
+                    "red": 255,
+                    "green": 125.715,
+                    "blue": 120.86999999999999,
+                    "alpha": 1,
+                    "hex": "#ffd81c"
+                },
+                "light": {
+                    "red": 255,
+                    "green": 37.995,
+                    "blue": 0,
+                    "alpha": 1,
+                    "hex": "#ff1e00"
+                },
+                "dark": {
+                    "red": 148.155,
+                    "green": 17.085,
+                    "blue": 0,
+                    "alpha": 1,
+                    "hex": "#48f600"
+                }
+            }
+        },
+        {
+            "name": "Test.colorset",
+            "value": {
+                "any": {
+                    "red": 208,
+                    "green": 159,
+                    "blue": 234,
+                    "alpha": 1,
+                    "hex": "#d09fea"
+                },
+                "light": {
+                    "red": 255,
+                    "green": 255,
+                    "blue": 255,
+                    "alpha": 1,
+                    "hex": "#ffffff"
+                },
+                "dark": {
+                    "red": 255,
+                    "green": 255,
+                    "blue": 255,
+                    "alpha": 1,
+                    "hex": "#ffffff"
+                }
+            }
+        }
+    ],
+    "images": [
+        {
+            "name": "AppIcon.appiconset",
+            "value": {}
+        }
+    ]
+}
