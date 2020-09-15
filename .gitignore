@@ -105,12 +105,12 @@ dist
 
 # Resources file
 resources/
-./asset-catalog-viewer/src/assets/resource/*
+asset-catalog-viewer/src/assets/resource/*
 
 # Profile
 .profile
 
 # Repository dir
-./app-repository
+/app-repository
 
 .DS_Store
