@@ -3,7 +3,7 @@ module.exports = {
     "vuetify"
   ],
   publicPath: './',
-  outputDir: '../docs',
+  outputDir: '../dist',
   css: {
     loaderOptions: {
       scss: {
