@@ -108,7 +108,7 @@ resources/
 ./asset-catalog-viewer/src/assets/resource/*
 
 # Profile
-./deploy-script/.profile
+.profile
 
 # Repository dir
 ./app-repository
