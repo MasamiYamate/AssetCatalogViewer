@@ -105,5 +105,12 @@ dist
 
 # Resources file
 resources/
+./asset-catalog-viewer/src/assets/resource/*
+
+# Profile
+./deploy-script/.profile
+
+# Repository dir
+./app-repository
 
 .DS_Store
