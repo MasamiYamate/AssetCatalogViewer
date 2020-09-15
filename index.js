@@ -3,8 +3,8 @@ const assetParser = require('./lib/asset-parser');
 const fileManager = require('./lib/file-manager');
 const imageExtraction = require('./lib/image-extraction');
 
-const resourceDirPath = './asset-catalog-viewer/src/assets/resource/';
-const imagesDirPath =  './asset-catalog-viewer/src/assets/resource/images/';
+const resourceDirPath = './viewer/src/assets/resource/';
+const imagesDirPath =  './viewer/src/assets/resource/images/';
 
 program
   .version('0.0.1', '-v, --version')
