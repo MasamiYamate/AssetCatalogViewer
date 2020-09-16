@@ -1,22 +1,22 @@
 {
-  "name": "colorsetjsonparser",
+  "name": "assetcatalogviewer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "setup": "bash ./deploy-script/setup.sh",
-    "deploy": "bash ./deploy-script/deploy.sh"
+    "setup": "bash ./scripts/setup.sh",
+    "build": "bash ./scripts/build.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MasamiYamate/ColorSetJsonParser.git"
+    "url": "git@github.com:MasamiYamate/AssetCatalogViewer.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MasamiYamate/ColorSetJsonParser/issues"
+    "url": "https://github.com/MasamiYamate/AssetCatalogViewer/issues"
   },
-  "homepage": "https://github.com/MasamiYamate/ColorSetJsonParser#readme",
+  "homepage": "https://github.com/MasamiYamate/AssetCatalogViewer#readme",
   "dependencies": {
     "commander": "^5.0.0",
     "node-filelist": "^1.0.0",

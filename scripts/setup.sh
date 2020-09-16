@@ -8,7 +8,7 @@ rm ".profile"
 # profileへの設定
 echo "export COLORSET_VIEWER=$githubPath" >> .profile
 #viewer側の npm installの実行
-cd ./asset-catalog-viewer
+cd ./viewer
 npm install
 
 echo "Repository setting completed!!"
