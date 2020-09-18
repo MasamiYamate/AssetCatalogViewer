@@ -1,4 +1,3 @@
-<!-- テンプレート部分 -->
 <template>
 <footer>
   <v-card>

@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire">
-    <v-simple-table height="300px">
+    <v-simple-table>
       <template v-slot:default>
         <thead>
           <tr>
