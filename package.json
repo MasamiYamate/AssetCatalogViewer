@@ -21,6 +21,7 @@
     "commander": "^5.0.0",
     "node-filelist": "^1.0.0",
     "path": "^0.12.7",
+    "rimraf": "^3.0.2",
     "rxjs": "^6.5.5"
   }
 }

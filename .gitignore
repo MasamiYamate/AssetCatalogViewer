@@ -110,7 +110,7 @@ asset-catalog-viewer/src/assets/resource/*
 # Profile
 .profile
 
-# Repository dir
-/app-repository
+# dist dir
+./dist
 
 .DS_Store
