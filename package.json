@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "setup": "bash ./scripts/setup.sh",
-    "build": "bash ./scripts/build.sh"
+    "build": "node index.js"
   },
   "repository": {
     "type": "git",
